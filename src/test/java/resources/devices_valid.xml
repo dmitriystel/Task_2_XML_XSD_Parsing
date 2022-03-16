@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.example.org/devices"
+         xsi:schemaLocation="http://www.example.org/devices schema.xsd">
+
+    <audio-device id="d1" title="headphones bowers and wilkins">
+        <name>Headphones</name>
+        <brand>BandW</brand>
+        <origin>England</origin>
+        <price>400.0</price>
+        <type>
+            <peripheral>true</peripheral>
+            <power-usage>5</power-usage>
+            <cooler>false</cooler>
+            <ports>
+                <com>false</com>
+                <usb>false</usb>
+                <trs>true</trs>
+            </ports>
+        </type>
+        <release-date>2019-03-01</release-date>
+        <critical>false</critical>
+        <wireless>false</wireless>
+        <surround>2.0</surround>
+    </audio-device>
+
+    <audio-device id="d2" title="speakers bose">
+        <name>Speakers</name>
+        <brand>Bose</brand>
+        <origin>USA</origin>
+        <price>400.0</price>
+        <type>
+
+            <peripheral>true</peripheral>
+            <power-usage>10</power-usage>
+            <cooler>false</cooler>
+            <ports>
+                <com>false</com>
+                <usb>false</usb>
+                <trs>true</trs>
+            </ports>
+        </type>
+        <release-date>2019-05-01</release-date>
+        <critical>false</critical>
+        <wireless>false</wireless>
+        <surround>5.0</surround>
+    </audio-device>
+
+    <audio-device id="d3" title="subwoofer presonus">
+        <name>Subwoofer </name>
+        <brand>Presonus</brand>
+        <origin>USA</origin>
+        <price>420.0</price>
+        <type>
+            <peripheral>true</peripheral>
+            <power-usage>100</power-usage>
+            <cooler>false</cooler>
+            <ports>
+                <com>false</com>
+                <usb>false</usb>
+                <trs>true</trs>
+            </ports>
+        </type>
+        <release-date>2019-07-01</release-date>
+        <critical>false</critical>
+        <wireless>false</wireless>
+        <surround>1.0</surround>
+    </audio-device>
+
+    <print-device id="d4"> title="printer hp">
+        <name>Printer</name>
+        <brand>HP</brand>
+        <origin>USA</origin>
+        <price>160.0</price>
+        <type>
+
+            <peripheral>false</peripheral>
+            <power-usage>320</power-usage>
+            <cooler>false</cooler>
+            <ports>
+                <com>false</com>
+                <usb>true</usb>
+                <trs>false</trs>
+            </ports>
+        </type>
+
+        <release-date>2019-09-01</release-date>
+        <critical>false</critical>
+        <wireless>true</wireless>
+        <cartridge-resource>1000</cartridge-resource>
+        <tray-capacity>150</tray-capacity>
+        <print-speed>20</print-speed>
+    </print-device>
+
+    <print-device id="d5"> title="printer canon">
+        <name>Printer</name>
+        <brand>Canon</brand>
+        <origin>Japan</origin>
+        <price>282.4</price>
+        <type>
+            <peripheral>false</peripheral>
+            <power-usage>300</power-usage>
+            <cooler>false</cooler>
+            <ports>
+                <com>false</com>
+                <usb>true</usb>
+                <trs>false</trs>
+            </ports>
+        </type>
+        <release-date>2019-11-01</release-date>
+        <critical>false</critical>
+        <wireless>true</wireless>
+        <cartridge-resource>1600</cartridge-resource>
+        <tray-capacity>150</tray-capacity>
+        <print-speed>18</print-speed>
+    </print-device>
+
+    <print-device id="d6"> title="printer xerox">
+        <name>Printer</name>
+        <brand>Xerox</brand>
+        <origin>USA</origin>
+        <price>505.20</price>
+        <type>
+            <peripheral>false</peripheral>
+            <power-usage>200</power-usage>
+            <cooler>false</cooler>
+            <ports>
+                <com>false</com>
+                <usb>true</usb>
+                <trs>false</trs>
+            </ports>
+        </type>
+        <release-date>2020-05-01</release-date>
+        <critical>false</critical>
+        <wireless>true</wireless>
+        <cartridge-resource>3500</cartridge-resource>
+        <tray-capacity>250</tray-capacity>
+        <print-speed>22</print-speed>
+    </print-device>
+</devices>
